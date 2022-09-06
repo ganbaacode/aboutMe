@@ -1,0 +1,23 @@
+
+tr{
+    align-content: space-between;
+   
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16;
+    color: white
+}
+td:hover{
+    border-radius: 12;
+    border-style: solid;
+    border-color: aqua;
+    background-color: gray;
+}
+li:hover{
+    background-color: yellow;
+}
+body{
+    background-color: gainsboro;
+}
+
