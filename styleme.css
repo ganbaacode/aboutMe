@@ -1,23 +1,121 @@
-
-tr{
-    align-content: space-between;
-   
+.top-container{
+    background-color: #54BAB9; 
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin: 0px;
 }
+
+.course-container{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.movie-container{
+    text-align: center;
+}
+
+.mood-container{
+    text-align: center;
+
+}
+
+.neighbor-container{
+    text-align: center;
+}
+
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16;
-    color: white
-}
-td:hover{
-    border-radius: 12;
-    border-style: solid;
-    border-color: aqua;
-    background-color: gray;
-}
-li:hover{
-    background-color: yellow;
-}
-body{
-    background-color: gainsboro;
+    color: #54BAB9;
 }
 
+#name{
+    color: azure;
+}
+
+.bio{
+    font-family: 'Indie Flower', cursive;
+    color: azure;
+    font-size: 25px;
+}
+
+.bio::first-letter{
+    color: #F7ECDE;
+    font-size: 80px;
+    padding-right: 8px;
+}
+
+
+hr{
+    border: dotted #9ED2C6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.moodtable{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7ECDE;
+}
+#pm{
+    text-align: center;
+}
+
+#validator{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.list{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+td >a:hover{
+    color: red;
+}
+
+p>span{
+    color: yellow;
+}
+
+td>h2{
+    color: #54BAB9;
+    font-size:medium;
+}
+
+.reverse-container{
+    text-align: center;
+}
+
+.reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    list-style-position: inside;
+
+}
+
+.original{
+    text-align: left;
+    list-style-position: inside;
+}
+
+.reversetable{
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td>h1{
+    font-size: 25px;
+}
